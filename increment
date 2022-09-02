@@ -1,1 +1,16 @@
-///
+/ Online C compiler to run C program online
+// autor:non
+//date:20/09/2022.
+//program:post-increment
+#include <stdio.h>
+
+int main() {
+    int a;
+    int x;
+    a=10;
+    x=a++;
+    printf("value of a %d",a);
+    printf("\nvalue of x %d",x);
+
+    return 0;
+}
