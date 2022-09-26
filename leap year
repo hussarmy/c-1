@@ -1,0 +1,22 @@
+// Online C compiler to run C program onlin
+//write the program to accept the value of year as input from keyword &print whether it is leap year or not
+#include <stdio.h>
+
+int main() 
+{
+    int year;
+    printf("enter your year: ");
+    scanf("%d",&year);
+        if(year%4==0)
+        {
+            printf("your year is leap");
+        }
+        else{
+            printf("your year is not leap");
+        }
+    
+    return 0;
+}
+output
+enter your year: 2000
+your year is leap
