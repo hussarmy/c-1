@@ -1,0 +1,22 @@
+// Online C compiler to run C program onlin
+//even or odd
+#include <stdio.h>
+
+int main()
+     {
+     int num;
+    printf("enter your num: ");
+    scanf("%d",&num);
+        if(num%2==0)
+        {
+            printf("your num is even");
+        }
+        else{
+            printf("your num is odd");
+        }
+    
+    return 0;
+}
+output
+enter your num: 8
+your num is even
