@@ -1,0 +1,41 @@
+// Online C compiler to run C program online
+//find the gretest number
+#include <stdio.h>
+
+void main() 
+{
+    int a,b,c;
+   
+    printf("enter your 1st number: ");
+    scanf("%d",&a); 
+    printf("\nenter your 2nd number: ");
+    scanf("%d",&b);
+    printf("\nenter your 3rd number: ");
+    scanf("%d",&c);
+    if(a>b&&a>c)
+        printf("\na number is gretest: ");
+     else if(b>c)
+         printf("\nb number is gretest: ");
+     else 
+        printf("\nc number is gretest: ");
+    
+        
+          
+      
+}
+output
+enter your 1st number: 5
+enter your 2nd number: 3
+enter your 3rd number: 2
+a number is gretest:
+2nd output
+enter your 1st number: 2
+enter your 2nd number: 5
+enter your 3rd number: 3
+b number is gretest: 
+3rd output
+enter your 1st number: 5
+enter your 2nd number: 6
+enter your 3rd number: 7
+c number is gretest: 
+    
