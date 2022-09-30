@@ -1,0 +1,21 @@
+// Online C compiler to run C program online
+//find if a given cheracter is vowel or not 
+#include <stdio.h>
+
+void main() {
+    char alfha;
+    printf("enter your alfha: ");
+    scanf("%c",&alfha);
+    if(alfha=='a'||alfha=='e'||alfha=='i'||alfha=='o'||alfha=='u'||alfha=='A'||alfha=='E'||alfha=='I'||alfha=='O'||alfha=='U'){
+        printf("\nyour alfha is vowel ");
+       }
+      else{
+          printf("\nyour alfha is not vowel");
+      }
+}
+output
+enter your alfha: A
+your alfha is vowel 
+2nd output
+enter your alfha: m
+your alfha is not vowel
