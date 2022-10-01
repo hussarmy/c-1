@@ -1,0 +1,49 @@
+// Online C compiler to run C program online
+//authore aman 
+#include <stdio.h>
+
+void main()
+{
+    int marks ;
+    printf("Enter your marks (0-100) ");
+    scanf ("%d",&marks);
+    int V = marks/10 ;
+    printf("v is %d\n", V);
+        switch (V)
+        {
+            case 10:printf ("A + GRADE");
+            // 100
+             break ;
+            case 9:printf (" A  GRADE");
+            // 90-99
+             break ;
+             case 8:printf (" B GRADE");
+             // 80-89
+             break ;
+             case 7:printf ("C GRADE");
+            //70-79
+             break ;
+            case 6:printf ("D GRADE");
+            // 60-69
+             break; 
+            case 5:printf ("E GRADE");
+            // 50-59
+             break;
+            case 4:printf ("F GRADE");
+            // 40-49
+            break ;  
+            case 3:printf ("H  GRADE");
+            // 30-39
+            break;
+            
+             default :
+            printf("fail ") ;
+        
+         }
+    
+    
+  }
+  output
+  Enter your marks (0-100) 100
+v is 10
+A + GRADE
