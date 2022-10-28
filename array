@@ -1,0 +1,25 @@
+#include <stdio.h>
+void main() {
+    int rollno[5];
+    int i=0;
+    for(i=0;i<5;i++)
+    { 
+        printf("enter your rollno");
+        scanf("%d",&rollno[i]);
+    }
+    for(i=0;i<5;i++)
+    { 
+        printf("%d\n",rollno[i]);
+    }
+}
+output
+enter your rollno1
+enter your rollno2
+enter your rollno2
+enter your rollno2
+enter your rollno2
+1
+2
+2
+2
+2
