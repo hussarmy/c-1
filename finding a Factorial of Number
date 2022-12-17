@@ -1,0 +1,25 @@
+#include <stdio.h>
+int f(int n)
+{
+
+ if (n==1)
+ {
+ return 1;
+ }
+ else
+ {
+ return n * f(n-1);
+ }
+
+}
+void main()
+{
+printf("Welcome To C-programing\n");
+printf("programed by: \n1.Abdul Basit\n2.Alam sheikh\n3.Aman sheikh\n4.Sayyad Hussain\n");
+printf("Finding a Factorial of Number:");
+int n;
+printf("\nEnter number:");
+scanf("%d",&n);
+int result=f(n);
+printf("Factorial is %d", result);
+}
