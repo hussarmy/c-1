@@ -1,0 +1,25 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int fib(int n)
+{
+    //first base condition check or second base condition check.
+    if (n==0||n==1)
+    return n;
+    else
+    return fib (n-1)+fib(n-2);
+}
+void main ()
+{ 
+
+printf("Welcome To C-programing\n");
+printf("programed by: \n1.Abdul Basit\n2.Alam shaikh\n3.Aman sheikh\n4.Sayyad Hussain\n");
+printf("  fibonacei series by using recursion\n");
+    int n;
+    printf("enter limit:");
+    scanf("%d",&n);
+    for (int i=0;i<n;i++)
+    {
+        printf("%d", fib(i));
+    }
+    }
